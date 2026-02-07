@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="informe_a_altura">informe a altura!</string>
+    <string name="informe_o_peso">informe o peso</string>
+    <string name="informe_a_altura_em_metros">informe a altura em metros!</string>
+</resources>
