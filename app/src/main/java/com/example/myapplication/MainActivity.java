@@ -87,4 +87,15 @@ public class MainActivity extends AppCompatActivity {
         txtresultado.setText(msg + df.format(r));
 
     }
+
+    public void limpa(View view) {
+        EditText editAltura = findViewById(R.id.editAltura);
+        EditText editPeso = findViewById(R.id.editPeso);
+        TextView txtresultado = findViewById(R.id.txtresultado);
+
+        txtresultado.setText("");
+        editAltura.setText("");
+        editPeso.setText("");
+
+    }
 }
